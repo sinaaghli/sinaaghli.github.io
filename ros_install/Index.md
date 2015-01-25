@@ -26,5 +26,10 @@ Errors and solution to the errors while installing ros
 ###Failed to process package 'rviz' - Parse error at "BOOST_JOIN"
 
 * check the post [here](http://answers.ros.org/question/56056/boost-error-building-catkin-on-os-x/)
-
+{% highlight ruby %}
+this is a coding test
+	test1
+	if(test2)
+		test3
+{%highlight ruby %}
 
