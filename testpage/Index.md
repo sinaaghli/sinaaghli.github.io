@@ -1,10 +1,9 @@
 ---
 layout: page
-title: testpage2
-permalink: /test/test2
+title: testpage
+permalink: /test/
 ---
-###this is a test2 page
-
+###this is a test page
 ##This is a test header
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
