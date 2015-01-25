@@ -11,4 +11,8 @@ Solution:
 -According to [this](https://github.com/ros-perception/perception_pcl/issues/71) thread replace the perception_pcl package in 'workspace'/src with [this repo](https://github.com/ros-perception/perception_pcl)
 -compile again, if replacement didn't work then remove the pointcloud_to_laserscan folder from src/ and build_isolated/ and compile again
 
+###Failed to process package 'pcl_ros'
+cd into build_isolated/pcl_ros/ and do "ccmake ../../src/perception_pcl/pcl_ros"
+change the GLEW_INCLUDE_DIR to /usr/local/Cellar/glew/1.11.0/include/GL (if using brew)
+change the GLEW_GLEW_LIBRARY to /usr/local/Cellar/glew/1.11.0/lib
 
