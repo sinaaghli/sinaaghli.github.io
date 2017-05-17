@@ -98,4 +98,4 @@ kramdown:
 redcloth:
   hard_breaks: true
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-merlot
